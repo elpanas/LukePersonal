@@ -49,7 +49,10 @@ const LukeSocial = (props) => {
       <Modal isOpen={phoneModal} toggle={togglePhone} className={classNamePhone}>
         <ModalHeader toggle={togglePhone}><SiWhatsapp /> Call or text me</ModalHeader>
         <ModalBody>
-          <h5><a href="tel:+393339220985" className="text-dark"  target="_blank" rel="noreferrer">(+39) 3339220985</a> <GoLinkExternal /></h5>
+          <h5>
+            <span itemprop="telephone">
+              <a href="tel:+393339220985" className="text-dark"  target="_blank" rel="noreferrer">(+39) 3339220985</a>
+            </span> <GoLinkExternal /></h5>
         </ModalBody>
         <ModalFooter>
           <Button color="info" onClick={togglePhone}>Ok</Button>{' '}
