@@ -40,16 +40,16 @@ const LukeSocial = (props) => {
       <Modal isOpen={skypeModal} toggle={toggleSkype} className={classNameSkype}>
         <ModalHeader toggle={toggleSkype}><SiSkype /> Skype ID</ModalHeader>
         <ModalBody>
-          <h5><a href="skype:luca.panariello?call" className="text-dark"  target="_blank" rel="noreferrer">luca.panariello</a> <GoLinkExternal /></h5>
+          <h5><a href="skype:luca.panariello" className="text-dark"  target="_blank" rel="noreferrer">luca.panariello</a> <GoLinkExternal /></h5>
         </ModalBody>
         <ModalFooter>
           <Button color="info" onClick={toggleSkype}>Ok</Button>{' '}
         </ModalFooter>
       </Modal>
       <Modal isOpen={phoneModal} toggle={togglePhone} className={classNamePhone}>
-        <ModalHeader toggle={togglePhone}><SiWhatsapp /> Phone / Whatsapp / Telegram</ModalHeader>
+        <ModalHeader toggle={togglePhone}><SiWhatsapp /> Call or text me</ModalHeader>
         <ModalBody>
-          <h5><a href="callto:+393339220985" className="text-dark"  target="_blank" rel="noreferrer">(+39) 3339220985</a> <GoLinkExternal /></h5>
+          <h5><a href="tel:+393339220985" className="text-dark"  target="_blank" rel="noreferrer">(+39) 3339220985</a> <GoLinkExternal /></h5>
         </ModalBody>
         <ModalFooter>
           <Button color="info" onClick={togglePhone}>Ok</Button>{' '}

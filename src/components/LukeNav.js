@@ -3,12 +3,11 @@ import {
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
   NavbarText
 } from 'reactstrap';
+import { Link } from 'react-router-dom';
 import { MdCopyright } from 'react-icons/md';
 
 const LukeNav = () => {
@@ -19,15 +18,15 @@ const LukeNav = () => {
   return (
     <div>
       <Navbar color="info" dark expand="md">
-        <NavbarBrand href="/">Luke's Personal Page</NavbarBrand>
+        <Link className="navbar-brand" to="/">Luke's Personal Page</Link>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/portfolio">Portfolio</NavLink>
+              <Link className="nav-link" to="/portfolio">Portfolio</Link>
             </NavItem>
             <NavItem>
-              <NavLink href="/skills">Skills</NavLink>
+              <Link  className="nav-link" to="/skills">Skills</Link>
             </NavItem>                         
           </Nav>
           <NavbarText><MdCopyright /> 2021 Luca Panariello</NavbarText>
