@@ -18,7 +18,7 @@ const LukeNav = () => {
   return (
     <div>
       <Navbar color="info" dark expand="md">
-        <Link className="navbar-brand" to="/">Luke's Personal Page</Link>
+        <Link className="navbar-brand" to="/" onClick={toggle}>Luke's Personal Page</Link>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
