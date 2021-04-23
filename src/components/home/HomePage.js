@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import LukeSocial from './LukeSocial';
-import './LukeJumbo.css';
+import './HomePage.css';
 import '../../styles/resfont.css'
 
 const HomePage = () => {
@@ -33,10 +32,8 @@ const HomePage = () => {
             <Col>
               <p className="lead subtext">Master's Degree Student in Applied Computer Science</p>
             </Col>
-          </Row>
-          <hr className="my-2" />          
-        </Container>   
-        <LukeSocial />    
+          </Row>         
+        </Container>              
     </div>
   );
 };

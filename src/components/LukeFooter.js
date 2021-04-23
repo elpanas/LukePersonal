@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { Button, Container, Row, Col, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
-import { GrGithub, GrLinkedin, GrMail, GrSkype } from 'react-icons/gr';
+import { GrDocumentPdf, GrGithub, GrLinkedin, GrMail, GrSkype } from 'react-icons/gr';
 import { SiSkype, SiWhatsapp } from 'react-icons/si';
 import { GoLinkExternal } from 'react-icons/go';
-import '../../styles/resfont.css'
-import LukeCV from './LukeCV';
+import '../styles/resfont.css'
+import { MdCopyright } from 'react-icons/md';
 
-const LukeSocial = (props) => {
+const LukeFooter = (props) => {
 
   const {
     classNameSkype,
@@ -32,9 +32,14 @@ const LukeSocial = (props) => {
               <Col xs="auto"><Button color="link" onClick={togglePhone} className="text-muted" ><SiWhatsapp /></Button></Col>
             </Row>  
           </Col>
-          <Col xs="auto" sm="5">
+          <Col xs="auto" sm="5" className="text-center text-muted">
+            <GrDocumentPdf />
+            <Button color="link" href="https://drive.google.com/file/d/1w_jKG87QkOuh-uhw1N9gD5ZcO7XgG4MH/view?usp=sharing" className="text-muted" target="_blank" rel="noreferrer"> English CV</Button>|              
+            <Button color="link" href="https://drive.google.com/file/d/1W0-lag6AHozkoLKwx3GYIFOwexyVCvZW/view?usp=sharing" className="text-muted"  target="_blank" rel="noreferrer"> Italian CV</Button>
           </Col>
-          <Col xs="auto" sm="3"> <LukeCV /></Col>
+          <Col xs="auto" sm="3" className="text-right">
+            <Button color="link" className="text-muted"><MdCopyright /> 2021 Luca Panariello</Button>
+          </Col>
         </Row>       
       </Container>
       <Modal isOpen={skypeModal} toggle={toggleSkype} className={classNameSkype}>
@@ -62,4 +67,4 @@ const LukeSocial = (props) => {
   );
 }
 
-export default LukeSocial;
+export default LukeFooter;

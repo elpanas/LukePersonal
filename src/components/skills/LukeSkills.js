@@ -26,7 +26,7 @@ const LukeSkills = () => {
         <hr className="my-2" />
           <Row>
           <Col sm="3">
-            <Card body inverse color="dark">
+            <Card body inverse color="dark" className="mb-3">
               <CardTitle className="text-center" tag="h5">Generic</CardTitle>
               <CardText>
                   <ul>
@@ -40,7 +40,7 @@ const LukeSkills = () => {
             </Card>
           </Col>
           <Col sm="3">
-            <Card body inverse color="dark">
+            <Card body inverse color="dark" className="mb-3">
               <CardTitle className="text-center" tag="h5">Specific</CardTitle>
               <CardText>
                 <ul>
@@ -55,7 +55,7 @@ const LukeSkills = () => {
             </Card>
           </Col>
           <Col sm="3">
-            <Card body inverse color="dark">
+            <Card body inverse color="dark" className="mb-3">
               <CardTitle className="text-center" tag="h5">Soft</CardTitle>
               <CardText>
                 <ul>
@@ -68,7 +68,7 @@ const LukeSkills = () => {
             </Card>
           </Col>
           <Col sm="3">
-            <Card body inverse color="dark">
+            <Card body inverse color="dark"className="mb-3">
               <CardTitle className="text-center" tag="h5">Languages</CardTitle>
               <CardText>
                 <ul>
