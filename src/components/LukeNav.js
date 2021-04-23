@@ -23,10 +23,10 @@ const LukeNav = () => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <Link className="nav-link" to="/portfolio">Portfolio</Link>
+              <Link className="nav-link" to="/portfolio" onClick={toggle}>Portfolio</Link>
             </NavItem>
             <NavItem>
-              <Link  className="nav-link" to="/skills">Skills</Link>
+              <Link  className="nav-link" to="/skills" onClick={toggle}>Skills</Link>
             </NavItem>                         
           </Nav>
           <NavbarText><MdCopyright /> 2021 Luca Panariello</NavbarText>
