@@ -23,7 +23,7 @@ const LukeFooter = (props) => {
     <div>
       <Container>
         <Row>
-          <Col sm="4">
+          <Col xs="auto" sm="4">
             <Row>            
               <Col ><Button color="link" href="https://www.linkedin.com/in/luca-panariello-panas/" className="text-muted" target="_blank" rel="noreferrer"><GrLinkedin /></Button></Col> 
               <Col ><Button color="link" href="https://github.com/elpanas" className="text-muted"  target="_blank" rel="noreferrer"><GrGithub /></Button></Col>               
