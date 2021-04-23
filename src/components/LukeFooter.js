@@ -23,13 +23,13 @@ const LukeFooter = (props) => {
     <div>
       <Container>
         <Row>
-          <Col xs="auto" sm="4">
-            <Row>            
-              <Col ><Button color="link" href="https://www.linkedin.com/in/luca-panariello-panas/" className="text-muted" target="_blank" rel="noreferrer"><GrLinkedin /></Button></Col> 
-              <Col ><Button color="link" href="https://github.com/elpanas" className="text-muted"  target="_blank" rel="noreferrer"><GrGithub /></Button></Col>               
-              <Col ><Button color="link" href="mailto:luca.panariello@gmail.com" className="text-muted"><GrMail /></Button></Col>
-              <Col ><Button color="link" onClick={toggleSkype} className="text-muted" ><GrSkype /></Button></Col>
-              <Col ><Button color="link" onClick={togglePhone} className="text-muted" ><SiWhatsapp /></Button></Col>
+          <Col sm="4">
+            <Row >    
+              <Col xs="2" className="ml-3"><Button color="link" href="https://www.linkedin.com/in/luca-panariello-panas/" className="text-muted" target="_blank" rel="noreferrer"><GrLinkedin /></Button></Col> 
+              <Col xs="2"><Button color="link" href="https://github.com/elpanas" className="text-muted"  target="_blank" rel="noreferrer"><GrGithub /></Button></Col>               
+              <Col xs="2"><Button color="link" href="mailto:luca.panariello@gmail.com" className="text-muted"><GrMail /></Button></Col>
+              <Col xs="2"><Button color="link" onClick={toggleSkype} className="text-muted" ><GrSkype /></Button></Col>
+              <Col xs="2"><Button color="link" onClick={togglePhone} className="text-muted" ><SiWhatsapp /></Button></Col>
             </Row>  
           </Col>
           <Col sm="5" className="text-center text-muted">
