@@ -28,9 +28,9 @@ function App() {
           <Route path="/projects/ordkrig"><OrdKrig /></Route>       
         </Switch>
         <hr className="my-2" /> 
+        <LukeFooter /> 
         </Container>
-      </Router>      
-      <LukeFooter />       
+      </Router> 
       <br/>     
     </div>    
   );

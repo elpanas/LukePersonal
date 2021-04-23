@@ -23,21 +23,21 @@ const LukeFooter = (props) => {
     <div>
       <Container>
         <Row>
-          <Col xs="auto" sm="4">
+          <Col sm="4">
             <Row>            
-              <Col xs="auto"><Button color="link" href="https://www.linkedin.com/in/luca-panariello-panas/" className="text-muted" target="_blank" rel="noreferrer"><GrLinkedin /></Button></Col> 
-              <Col xs="auto"><Button color="link" href="https://github.com/elpanas" className="text-muted"  target="_blank" rel="noreferrer"><GrGithub /></Button></Col>               
-              <Col xs="auto"><Button color="link" href="mailto:luca.panariello@gmail.com" className="text-muted"  target="_blank" rel="noreferrer"><GrMail /></Button></Col>
-              <Col xs="auto"><Button color="link" onClick={toggleSkype} className="text-muted" ><GrSkype /></Button></Col>
-              <Col xs="auto"><Button color="link" onClick={togglePhone} className="text-muted" ><SiWhatsapp /></Button></Col>
+              <Col ><Button color="link" href="https://www.linkedin.com/in/luca-panariello-panas/" className="text-muted" target="_blank" rel="noreferrer"><GrLinkedin /></Button></Col> 
+              <Col ><Button color="link" href="https://github.com/elpanas" className="text-muted"  target="_blank" rel="noreferrer"><GrGithub /></Button></Col>               
+              <Col ><Button color="link" href="mailto:luca.panariello@gmail.com" className="text-muted"><GrMail /></Button></Col>
+              <Col ><Button color="link" onClick={toggleSkype} className="text-muted" ><GrSkype /></Button></Col>
+              <Col ><Button color="link" onClick={togglePhone} className="text-muted" ><SiWhatsapp /></Button></Col>
             </Row>  
           </Col>
-          <Col xs="auto" sm="5" className="text-center text-muted">
+          <Col sm="5" className="text-center text-muted">
             <GrDocumentPdf />
             <Button color="link" href="https://drive.google.com/file/d/1w_jKG87QkOuh-uhw1N9gD5ZcO7XgG4MH/view?usp=sharing" className="text-muted" target="_blank" rel="noreferrer"> English CV</Button>|              
             <Button color="link" href="https://drive.google.com/file/d/1W0-lag6AHozkoLKwx3GYIFOwexyVCvZW/view?usp=sharing" className="text-muted"  target="_blank" rel="noreferrer"> Italian CV</Button>
           </Col>
-          <Col xs="auto" sm="3" className="text-right">
+          <Col sm="3" className="text-center">
             <Button color="link" className="text-muted"><MdCopyright /> 2021 Luca Panariello</Button>
           </Col>
         </Row>       
