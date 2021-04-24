@@ -22,7 +22,7 @@ function App() {
         <Container>
         <p></p>
         <p></p>
-        <Suspense fallback={<div className="centered"><Spinner color="info" /></div>}>
+        <Suspense fallback={<div className="text-center"><Spinner color="info" /></div>}>
           <Switch>
             <Route path="/" exact><HomePage /></Route>
             <Route path="/portfolio"><LukePortfolio /></Route> 
