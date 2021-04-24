@@ -21,10 +21,10 @@ const LukeNav = () => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <Link className="nav-link" to="/portfolio" onClick={toggle}>Portfolio</Link>
+              <Link className="nav-link" to="/portfolio">Portfolio</Link>
             </NavItem>
             <NavItem>
-              <Link  className="nav-link" to="/skills" onClick={toggle}>Skills</Link>
+              <Link  className="nav-link" to="/skills">Skills</Link>
             </NavItem>    
           </Nav>
         </Collapse>
