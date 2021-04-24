@@ -9,10 +9,10 @@ const HomePage = () => {
     <div>      
         <Container> 
           <Row >
-            <Col><h1 className="display-3">Luca Panariello</h1></Col>
+            <Col><h1 id="titlename" className="display-3">Luca Panariello</h1></Col>
           </Row>          
           <Row className="justify-content-center">            
-            <Col xs="auto" sm="2"><img src="images/profile.png" className="photo rounded-circle img-thumbnail" alt="50%50" /> </Col> 
+            <Col xs="auto" sm="2"><img src="images/profile.png" className="photo rounded-circle img-thumbnail shadow" alt="50%50" /><br/><br/> </Col> 
             <Col sm="10"><p className="lead subtext ">Hi, I'm Luca. I am a software engineer living in Italy.
                 I got my Bachelor's Degree in February 2021 with a thesis
                 on mobile development applied to digital education.
