@@ -16,12 +16,12 @@ const LukeNav = () => {
   return (
     <div>
       <Navbar color="info" dark expand="md">
-        <Link className="navbar-brand" to="/">Luke's Personal Page</Link>
+        <Link className="navbar-brand" to="/">Luca's Portfolio</Link>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <Link className="nav-link" to="/portfolio">Portfolio</Link>
+              <Link className="nav-link" to="/portfolio">Projects</Link>
             </NavItem>
             <NavItem>
               <Link  className="nav-link" to="/skills">Skills</Link>

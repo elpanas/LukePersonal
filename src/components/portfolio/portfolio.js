@@ -31,13 +31,20 @@ const LukePortfolio = () => {
       text: "Calculates ordinary Kriging in a set of P points which have known coordinates in the form of (Px, Py)",
       techs: "Octave"
     },
+    {
+      title: "Luca's Personal Page",
+      subtitle: 'Personal project',
+      text: "Just a portfolio website, which is a project itself",
+      techs: "MERN"
+    },
   ];
 
   return (
     <div>        
         <Container>
-        <h1 className="display-4">Portfolio</h1> 
+        <h1 className="display-4">Projects</h1> 
         <hr className="my-2" />
+          
           <Row>          
             <BoxPortfolio 
               title={projects[0].title}
@@ -61,6 +68,13 @@ const LukePortfolio = () => {
               subtitle={projects[3].subtitle}
               text={projects[3].text}
               techs={projects[3].techs}/> 
+          </Row>
+          <Row>
+            <BoxPortfolio 
+              title={projects[4].title}
+              subtitle={projects[4].subtitle}
+              text={projects[4].text}
+              techs={projects[4].techs}/> 
           </Row>
         </Container>  
     </div>
