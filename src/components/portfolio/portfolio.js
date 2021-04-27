@@ -32,10 +32,10 @@ const LukePortfolio = () => {
       techs: "Octave"
     },
     {
-      title: "Luca's Personal Page",
+      title: "Luca's Portfolio",
       subtitle: 'Personal project',
       text: "Just a portfolio website, which is a project itself",
-      techs: "MERN"
+      techs: "React.js"
     },
   ];
 
@@ -68,9 +68,7 @@ const LukePortfolio = () => {
               subtitle={projects[3].subtitle}
               text={projects[3].text}
               techs={projects[3].techs}/> 
-          </Row>
-          <Row>
-            <BoxPortfolio 
+              <BoxPortfolio 
               title={projects[4].title}
               subtitle={projects[4].subtitle}
               text={projects[4].text}
