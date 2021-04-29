@@ -9,6 +9,7 @@ import {
   Route
 } from "react-router-dom";
 import { Container, Spinner } from 'reactstrap';
+import Comments from './components/comments/comments';
 
 const LukePortfolio = React.lazy(() => import('./components/portfolio/portfolio'));
 const LukeSkills = React.lazy(() => import('./components/skills/LukeSkills'));
@@ -27,6 +28,7 @@ function App() {
             <Route path="/" exact><HomePage /></Route>
             <Route path="/portfolio"><LukePortfolio /></Route> 
             <Route path="/skills"><LukeSkills /></Route> 
+            <Route path="/comments"><Comments /></Route> 
             <Route path="/projects/ordkrig"><OrdKrig /></Route>       
           </Switch>
         </Suspense>

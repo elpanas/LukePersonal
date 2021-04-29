@@ -24,8 +24,11 @@ const LukeNav = () => {
               <Link className="nav-link" to="/portfolio">Projects</Link>
             </NavItem>
             <NavItem>
-              <Link  className="nav-link" to="/skills">Skills</Link>
-            </NavItem>    
+              <Link className="nav-link" to="/skills">Skills</Link>
+            </NavItem>  
+            <NavItem>
+              <Link className="nav-link" to="/comments">Contact me</Link>
+            </NavItem>  
           </Nav>
         </Collapse>
       </Navbar>

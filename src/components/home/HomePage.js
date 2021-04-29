@@ -22,9 +22,9 @@ const HomePage = () => {
                 Actually I'm looking for an internship in data science or development,
                 because I want to learn, improve and make practice.<br/>                
                 </p>
-                <blockquote class="blockquote text-right">
-                  <p class="mb-0 quote">Do. Or do not. There is no try.</p>
-                  <footer class="blockquote-footer subquote">Yoda Master <cite title="Source Title">Star Wars</cite></footer>
+                <blockquote className="blockquote text-right">
+                  <p className="mb-0 quote">Do. Or do not. There is no try.</p>
+                  <footer className="blockquote-footer subquote">Yoda Master <cite title="Source Title">Star Wars</cite></footer>
                 </blockquote>
             </Col>
           </Row> 

@@ -42,9 +42,8 @@ const LukePortfolio = () => {
   return (
     <div>        
         <Container>
-        <h1 className="display-4">Projects</h1> 
-        <hr className="my-2" />
-          
+          <h1 className="display-4">Projects</h1> 
+          <hr className="my-2" />          
           <Row>          
             <BoxPortfolio 
               title={projects[0].title}
