@@ -1,9 +1,9 @@
 .photo {
-    max-height: 200px;
+  max-height: 200px;
 }
 
-@media(max-width: 600px) {
-    #titlename {
-        text-align: center;
-    }
+@media (max-width: 600px) {
+  #titlename {
+    text-align: center;
+  }
 }
