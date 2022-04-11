@@ -11,7 +11,9 @@ const BoxPortfolio = (props) => {
           <br />
           {props.text}
         </CardText>
-        <Button>{props.techs}</Button>
+        <Button href={props.url} target="_blank" rel="noreferrer">
+          Report
+        </Button>
       </Card>
     </Col>
   );

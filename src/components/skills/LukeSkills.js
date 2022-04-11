@@ -17,18 +17,24 @@ const LukeSkills = () => {
       skillname: 'Generic',
       skillset: [
         'Mobile Development',
-        'Fullstack Development',
+        'Web Development',
+        'Backend Development',
+        'Generic Development',
         'SQL / NoSQL',
-        'Data Analysis',
+        'Containerization',
+        'Version Management',
         'Machine Learning',
+        'Geomatics',
       ],
     },
     {
       skillname: 'Soft',
       skillset: [
         'Problem Solving',
-        'Eager to learn',
         'Accuracy and flexibility',
+        'Priorities management',
+        'Eager to learn',
+        'Extrovert',
       ],
     },
     {
@@ -43,14 +49,19 @@ const LukeSkills = () => {
   const [tooltipMongo, setTooltipMongo] = useState(false);
   const toggleMongo = () => setTooltipMongo(!tooltipMongo);
 
-  const [tooltipCss, setTooltipCss] = useState(false);
-  const toggleCss = () => setTooltipCss(!tooltipCss);
+  const [tooltipCsharp, setTooltipCsharp] = useState(false);
+  const toggleCsharp = () => setTooltipCsharp(!tooltipCsharp);
 
   const [tooltipJs, setTooltipJs] = useState(false);
   const toggleJs = () => setTooltipJs(!tooltipJs);
 
+  /*
+  const [tooltipCss, setTooltipCss] = useState(false);
+  const toggleCss = () => setTooltipCss(!tooltipCss);  
+
   const [tooltipPy, setTooltipPy] = useState(false);
-  const togglePy = () => setTooltipPy(!tooltipPy);
+  const togglePy = () => setTooltipPy(!tooltipPy);  
+  */
 
   return (
     <div>
@@ -69,21 +80,23 @@ const LukeSkills = () => {
               </CardTitle>
               <CardText>
                 <ul>
-                  <li>Flutter</li>
+                  <li>Flutter / Xamarin</li>
                   <li>
-                    HTML / <span id="css">CSS</span>
+                    HTML5 / <span id="js">JavaScript</span>
                   </li>
                   <li>
-                    <span id="node">Node.js</span> /{' '}
-                    <span id="js">JavaScript</span>
+                    <span id="node">Node.js</span>
+                  </li>
+                  <li>
+                    <span id="csharp">C#</span>
                   </li>
                   <li>
                     MySQL / <span id="mongo">MongoDB</span>
                   </li>
-                  <li>Octave</li>
-                  <li>
-                    <span id="py">Python</span>
-                  </li>
+                  <li>Docker</li>
+                  <li>Git</li>
+                  <li>Python</li>
+                  <li>QGIS</li>
                 </ul>
               </CardText>
             </Card>
@@ -116,17 +129,15 @@ const LukeSkills = () => {
       </Tooltip>
       <Tooltip
         placement="top"
-        isOpen={tooltipCss}
-        target="css"
-        toggle={toggleCss}
+        isOpen={tooltipCsharp}
+        target="csharp"
+        toggle={toggleCsharp}
       >
-        Bootstrap
+        .NET Framework
       </Tooltip>
+
       <Tooltip placement="top" isOpen={tooltipJs} target="js" toggle={toggleJs}>
-        React.js
-      </Tooltip>
-      <Tooltip placement="top" isOpen={tooltipPy} target="py" toggle={togglePy}>
-        Django
+        React
       </Tooltip>
     </div>
   );

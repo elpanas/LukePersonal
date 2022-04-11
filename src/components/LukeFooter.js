@@ -132,7 +132,7 @@ const LukeFooter = (props) => {
               href="skype:luca.panariello"
               className="text-dark"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               luca.panariello
             </a>{' '}
@@ -160,7 +160,7 @@ const LukeFooter = (props) => {
                 href="tel:+393339220985"
                 className="text-dark"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 (+39) 3339220985
               </a>

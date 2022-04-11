@@ -32,8 +32,9 @@ const HomePage = () => {
               in the Master's Degree course in Engineering and Computer Science
               at the University of Bologna. Furthermore I attend online courses
               in order to deepen languages, technologies and acquire new skills.
-              Actually I'm looking for an abroad internship in development
-              field, because I want to learn, improve and make practice.
+              Actually I'm looking for an abroad internship or working student
+              job in development field, because I want to learn, improve and
+              make practice.
               <br />
             </p>
             <blockquote className="blockquote text-right">
