@@ -11,7 +11,7 @@ const LukeNav = () => {
     <div>
       <Navbar color="info" dark expand="md">
         <Link className="navbar-brand" to="/">
-          Luca's Portfolio
+          Luca's Personal Page
         </Link>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>

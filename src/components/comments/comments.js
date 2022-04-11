@@ -3,6 +3,7 @@ import { Button, Form, FormGroup, Label, Input, Col, Alert } from 'reactstrap';
 import './comments.css';
 
 const Comments = () => {
+  // setInput imposta il valore inputName, il cui stato iniziale è ''
   const [inputName, setInputName] = useState('');
   const [inputEmail, setInputEmail] = useState('');
   const [inputContent, setInputContent] = useState('');
